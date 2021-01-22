@@ -7,7 +7,7 @@ int main()
 		do
 		{
 		char player[70];
-		int userValues[6],RNGValues[6],aciertos=0,i,j=0;
+		int userValues[6],RNGValues[6],aciertos=0,i;
 		srand(time(NULL));
 		FILE *registros;
 		registros=fopen("acmpy.txt","a+t");
