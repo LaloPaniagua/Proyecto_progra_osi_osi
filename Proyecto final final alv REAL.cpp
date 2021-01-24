@@ -27,7 +27,7 @@ int main()
 				}
 			}
 		printf("\nTus n%cmeros son: \n",163);
-		fprintf(registros,"\nTus números son: \n");
+		fprintf(registros,"\nTus nÃºmeros son: \n");
 		for(i=0;i<=5;i++)
 				{
 				 printf("\n%i",userValues[i]);	
@@ -38,7 +38,7 @@ int main()
 				RNGValues[i]=rand()%44;
 			}
 		printf("\n\nLos n%cmeros seleccionados por la computadora son: \n",163);	
-		fprintf(registros,"\n\nLos números seleccionados por la computadora son: \n");
+		fprintf(registros,"\n\nLos nÃºmeros seleccionados por la computadora son: \n");
 		for(i=0;i<=5;i++)
 		   {
 			 printf("\n%i",RNGValues[i]);
@@ -57,7 +57,7 @@ int main()
 		printf("\n %s tuviste %i aciertos",player,aciertos);
 		fprintf(registros,"\n %s tuviste %i aciertos\n\n",player,aciertos);
 		fclose(registros);
-		printf("\n%cQuieres volver a jugar%c, presione cualquier n%cmero entero, en caso contrario presione 0 y doble enter: ",168,63,163);
+		printf("\n%cQuieres volver a jugar%c, en caso de que si presione cualquier numero entero \nen caso contrario presione cero: ",168,63,163);
 		scanf("%i",&x);
 		}
 		while(x!=0);
