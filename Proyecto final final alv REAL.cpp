@@ -13,8 +13,8 @@ int main()
 		registros=fopen("acmpy.txt","a+t");
 		printf("\nPor favor ingrese un nombre de usuario y presione enter para continuar \n");
 		scanf(" %[^\n]",&player);
-			printf("\nBienvenid%c %s \nIngrese seis n%cmeros enteros entre 0 y 43\n",64,player,163);
-			fprintf(registros,"\nBienvenid%c %s\n",64,player);
+		printf("\nBienvenid%c %s \nIngrese seis n%cmeros enteros entre 0 y 43\n",64,player,163);
+		fprintf(registros,"\nBienvenid%c %s\n",64,player);
 		for(i=0;i<=5;i++)
 			{
 				printf("\nIngresa un n%cmero: ",163);
@@ -29,10 +29,10 @@ int main()
 		printf("\nTus n%cmeros son: \n",163);
 		fprintf(registros,"\nTus números son: \n");
 		for(i=0;i<=5;i++)
-				{
-				 printf("\n%i",userValues[i]);	
-				 fprintf(registros,"\n%i",userValues[i]);
-				}
+			{
+				printf("\n%i",userValues[i]);	
+				fprintf(registros,"\n%i",userValues[i]);
+			}
 		for(i=0;i<=5;i++)
 			{
 				RNGValues[i]=rand()%44;
@@ -40,10 +40,10 @@ int main()
 		printf("\n\nLos n%cmeros seleccionados por la computadora son: \n",163);	
 		fprintf(registros,"\n\nLos números seleccionados por la computadora son: \n");
 		for(i=0;i<=5;i++)
-		   {
-			 printf("\n%i",RNGValues[i]);
-			 fprintf(registros,"\n%i",RNGValues[i]);
-		   }
+			{
+			 	printf("\n%i",RNGValues[i]);
+			 	fprintf(registros,"\n%i",RNGValues[i]);
+			}
 
 		for(i=0;i<=5;i++)
 			{
