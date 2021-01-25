@@ -13,7 +13,7 @@ int main()
 		registros=fopen("acmpy.txt","a+t");
 		printf("\nPor favor ingrese un nombre de usuario y presione enter para continuar \n");
 		scanf(" %[^\n]",&player);
-		printf("\nBienvenid%c %s \nIngrese seis n%cmeros enteros entre 0 y 43\n",64,player,163);
+		printf("\nBienvenid%c \nIngrese seis n%cmeros enteros entre 0 y 43\n",64,163);
 		fprintf(registros,"\nBienvenid%c %s\n",64,player);
 		for(i=0;i<=5;i++)
 			{
